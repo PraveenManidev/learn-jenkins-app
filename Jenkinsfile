@@ -1,10 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Without docker') {
+        stage('Hello from Jenkins') {
             steps {
                 echo 'Hello World'
-                sh 'touch container-no.txt'
             }
         }
     }
